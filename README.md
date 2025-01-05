@@ -37,9 +37,7 @@ L'interface utilisateur permet de :
 - **Gestion des erreurs** : Des messages d'erreur sont affichés en cas d'échec des appels API (création, mise à jour, suppression).
 - **Gestion de l'état du bouton** : Le bouton de mise à jour est désactivé si le nom de la tâche n'a pas changé.
 
-## Backend (NestJS)
 
-L
 ### Difficulté rencontrée et apprentissage
 Lors de la mise en place de la base de données MySQL, j'ai rencontré quelques difficultés pour la faire fonctionner correctement. Après plusieurs tentatives et recherches, j'ai décidé d'utiliser Docker pour isoler et gérer l'environnement de la base de données. Cette approche n'a pas été simple au début, mais grâce à la documentation officielle et à diverses ressources en ligne, j'ai réussi à configurer et à faire fonctionner MySQL à travers Docker.
 
