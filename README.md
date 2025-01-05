@@ -1,6 +1,9 @@
 # ToDoListNestReactJs
 Ce projet implémente une **API de gestion des tâches** en utilisant **NestJS** pour le backend et **React** pour le frontend. L'API permet de gérer des tâches (création, lecture, mise à jour et suppression), et le frontend offre une interface utilisateur permettant de manipuler ces tâches.
 
+-**Installe les dépendances**: yarn install
+-**pour démarrer** yarn start:dev pour le backend et yarn dev pour le frontend : 
+
 ### Fonctionnalités
 
 - **Backend (NestJS)** : API REST pour gérer les tâches dans une base de données.
@@ -9,10 +12,18 @@ Ce projet implémente une **API de gestion des tâches** en utilisant **NestJS**
 ## Architecture
 
 ### Backend (NestJS)
+-**pourDma
 
 - **TaskController** : Gère les routes HTTP pour interagir avec les tâches (GET, POST, PATCH, DELETE).
 - **SaveTaskUseCase** : Cas d'utilisation pour gérer la logique de création et mise à jour des tâches.
 - **TaskRepository** : Interagit avec la base de données via Prisma pour enregistrer, mettre à jour, supprimer ou récupérer des tâches.
+- 
+- **Le backend expose les points suivants** :
+1. **GET /tasks** : Récupérer toutes les tâches.
+2. **POST /tasks** : Créer une nouvelle tâche.
+3. **PATCH /tasks/:id** : Mettre à jour une tâche existante.
+4. **DELETE /tasks/:id** : Supprimer une tâche.
+
 
 ### Frontend (React)
 
@@ -30,20 +41,8 @@ L'interface utilisateur permet de :
 
 ## Backend (NestJS)
 
-Le backend expose les points suivants :
-
-1. **GET /tasks** : Récupérer toutes les tâches.
-2. **POST /tasks** : Créer une nouvelle tâche.
-3. **PATCH /tasks/:id** : Mettre à jour une tâche existante.
-4. **DELETE /tasks/:id** : Supprimer une tâche.
-
-## Frontend (React)
-
-Le frontend utilise Material-UI pour la présentation et la gestion des interactions utilisateur.
-
-### Fonctionnalités du Frontend
-
-Difficulté rencontrée et apprentissage
+L
+### Difficulté rencontrée et apprentissage
 Lors de la mise en place de la base de données MySQL, j'ai rencontré quelques difficultés pour la faire fonctionner correctement. Après plusieurs tentatives et recherches, j'ai décidé d'utiliser Docker pour isoler et gérer l'environnement de la base de données. Cette approche n'a pas été simple au début, mais grâce à la documentation officielle et à diverses ressources en ligne, j'ai réussi à configurer et à faire fonctionner MySQL à travers Docker.
 
 Cette expérience m'a permis non seulement de résoudre le problème, mais aussi d'apprendre à utiliser Docker plus efficacement pour gérer des environnements de développement et des bases de données de manière isolée.
