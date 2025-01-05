@@ -1,8 +1,8 @@
 # ToDoListNestReactJs
 Ce projet implémente une **API de gestion des tâches** en utilisant **NestJS** pour le backend et **React** pour le frontend. L'API permet de gérer des tâches (création, lecture, mise à jour et suppression), et le frontend offre une interface utilisateur permettant de manipuler ces tâches.
 
--**Installe les dépendances**: yarn install
--**pour démarrer** yarn start:dev pour le backend et yarn dev pour le frontend : 
+-**Install les dépendances**: yarn install<br>
+-**Pour démarrer** : yarn start:dev pour le backend,  yarn dev pour le frontend 
 
 ### Fonctionnalités
 
