@@ -12,8 +12,6 @@ Ce projet implémente une **API de gestion des tâches** en utilisant **NestJS**
 ## Architecture
 
 ### Backend (NestJS)
--**pourDma
-
 - **TaskController** : Gère les routes HTTP pour interagir avec les tâches (GET, POST, PATCH, DELETE).
 - **SaveTaskUseCase** : Cas d'utilisation pour gérer la logique de création et mise à jour des tâches.
 - **TaskRepository** : Interagit avec la base de données via Prisma pour enregistrer, mettre à jour, supprimer ou récupérer des tâches.
